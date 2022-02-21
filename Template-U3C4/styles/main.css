@@ -1,0 +1,35 @@
+
+#container {
+    display: flex;
+}
+
+#main {
+    margin-left: 20px;
+}
+
+#main > div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+#main > div:hover{
+    background-color: rgba(212, 212, 212, 0.452);
+}
+
+#main img{
+    height: 250px;
+    width: 100%;
+}
+
+#sidebar{
+    /* border: 1px solid; */
+    padding: 1%;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
